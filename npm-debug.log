@@ -1,0 +1,153 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'install', '-g', 'restler' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.37
+4 verbose node symlink /usr/bin/node
+5 verbose cache add [ 'restler', null ]
+6 verbose cache add name=undefined spec="restler" args=["restler",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: 'restler',
+7 verbose parsed url   path: 'restler',
+7 verbose parsed url   href: 'restler' }
+8 silly lockFile fb93280d-restler restler
+9 verbose lock restler /home/prathamesh/.npm/fb93280d-restler.lock
+10 silly lockFile fb93280d-restler restler
+11 silly lockFile fb93280d-restler restler
+12 verbose addNamed [ 'restler', '' ]
+13 verbose addNamed [ null, '*' ]
+14 silly lockFile e35561c0-restler restler@
+15 verbose lock restler@ /home/prathamesh/.npm/e35561c0-restler.lock
+16 silly addNameRange { name: 'restler', range: '*', hasData: false }
+17 verbose request where is /restler
+18 verbose request registry https://registry.npmjs.org/
+19 verbose request id dd38fd49f64c0b45
+20 verbose url raw /restler
+21 verbose url resolving [ 'https://registry.npmjs.org/', './restler' ]
+22 verbose url resolved https://registry.npmjs.org/restler
+23 verbose request where is https://registry.npmjs.org/restler
+24 info trying registry request attempt 1 at 13:45:04
+25 http GET https://registry.npmjs.org/restler
+26 http 200 https://registry.npmjs.org/restler
+27 silly registry.get cb [ 200,
+27 silly registry.get   { date: 'Tue, 31 Mar 2015 08:15:05 GMT',
+27 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+27 silly registry.get     etag: '"DCXUYQEOH3H7O3DUOK4SVMQGJ"',
+27 silly registry.get     'content-type': 'application/json',
+27 silly registry.get     'cache-control': 'max-age=60',
+27 silly registry.get     'content-length': '21951',
+27 silly registry.get     'accept-ranges': 'bytes',
+27 silly registry.get     via: '1.1 varnish',
+27 silly registry.get     age: '0',
+27 silly registry.get     'x-served-by': 'cache-sn88-SIN',
+27 silly registry.get     'x-cache': 'HIT',
+27 silly registry.get     'x-cache-hits': '1',
+27 silly registry.get     'x-timer': 'S1427789705.511098,VS0,VE247',
+27 silly registry.get     vary: 'Accept',
+27 silly registry.get     'keep-alive': 'timeout=10, max=50',
+27 silly registry.get     connection: 'Keep-Alive' } ]
+28 silly addNameRange number 2 { name: 'restler', range: '*', hasData: true }
+29 silly addNameRange versions [ 'restler',
+29 silly addNameRange   [ '0.2.0',
+29 silly addNameRange     '0.2.1',
+29 silly addNameRange     '0.2.2',
+29 silly addNameRange     '0.2.3',
+29 silly addNameRange     '0.2.4',
+29 silly addNameRange     '0.2.5',
+29 silly addNameRange     '2.0.0',
+29 silly addNameRange     '2.0.1',
+29 silly addNameRange     '3.0.0',
+29 silly addNameRange     '3.1.0',
+29 silly addNameRange     '3.2.0',
+29 silly addNameRange     '3.2.1',
+29 silly addNameRange     '3.2.2' ] ]
+30 verbose addNamed [ 'restler', '3.2.2' ]
+31 verbose addNamed [ '3.2.2', '3.2.2' ]
+32 silly lockFile 37d209e7-restler-3-2-2 restler@3.2.2
+33 verbose lock restler@3.2.2 /home/prathamesh/.npm/37d209e7-restler-3-2-2.lock
+34 silly lockFile d3482ed9-js-org-restler-restler-3-2-2-tgz https://registry.npmjs.org/restler/-/restler-3.2.2.tgz
+35 verbose lock https://registry.npmjs.org/restler/-/restler-3.2.2.tgz /home/prathamesh/.npm/d3482ed9-js-org-restler-restler-3-2-2-tgz.lock
+36 verbose addRemoteTarball [ 'https://registry.npmjs.org/restler/-/restler-3.2.2.tgz',
+36 verbose addRemoteTarball   'f6c532b937746093e3486387e57fb1051bdb2857' ]
+37 info retry fetch attempt 1 at 13:45:07
+38 verbose fetch to= /tmp/npm-16482-mdTpE9yr/registry.npmjs.org/restler/-/restler-3.2.2.tgz
+39 http GET https://registry.npmjs.org/restler/-/restler-3.2.2.tgz
+40 http 200 https://registry.npmjs.org/restler/-/restler-3.2.2.tgz
+41 silly lockFile d3482ed9-js-org-restler-restler-3-2-2-tgz https://registry.npmjs.org/restler/-/restler-3.2.2.tgz
+42 silly lockFile d3482ed9-js-org-restler-restler-3-2-2-tgz https://registry.npmjs.org/restler/-/restler-3.2.2.tgz
+43 silly lockFile 37d209e7-restler-3-2-2 restler@3.2.2
+44 silly lockFile 37d209e7-restler-3-2-2 restler@3.2.2
+45 silly lockFile e35561c0-restler restler@
+46 silly lockFile e35561c0-restler restler@
+47 silly resolved [ { name: 'restler',
+47 silly resolved     version: '3.2.2',
+47 silly resolved     description: 'An HTTP client library for node.js',
+47 silly resolved     contributors: [ [Object], [Object] ],
+47 silly resolved     homepage: 'https://github.com/danwrong/restler',
+47 silly resolved     repository: { type: 'git', url: 'https://github.com/danwrong/restler.git' },
+47 silly resolved     directories: { lib: './lib' },
+47 silly resolved     main: './lib/restler',
+47 silly resolved     engines: { node: '>= 0.10.x' },
+47 silly resolved     scripts: { test: 'node test/all.js' },
+47 silly resolved     dependencies:
+47 silly resolved      { qs: '0.6.6',
+47 silly resolved        xml2js: '0.4.0',
+47 silly resolved        yaml: '0.2.3',
+47 silly resolved        'iconv-lite': '0.2.11' },
+47 silly resolved     devDependencies: { nodeunit: '0.8.2' },
+47 silly resolved     bugs: { url: 'https://github.com/danwrong/restler/issues' },
+47 silly resolved     _id: 'restler@3.2.2',
+47 silly resolved     dist:
+47 silly resolved      { shasum: 'f6c532b937746093e3486387e57fb1051bdb2857',
+47 silly resolved        tarball: 'http://registry.npmjs.org/restler/-/restler-3.2.2.tgz' },
+47 silly resolved     _from: 'restler@',
+47 silly resolved     _npmVersion: '1.4.4',
+47 silly resolved     _npmUser: { name: 'easternbloc', email: 'ben@marvell-consulting.com' },
+47 silly resolved     maintainers: [ [Object], [Object], [Object] ],
+47 silly resolved     _shasum: 'f6c532b937746093e3486387e57fb1051bdb2857',
+47 silly resolved     _resolved: 'https://registry.npmjs.org/restler/-/restler-3.2.2.tgz' } ]
+48 info install restler@3.2.2 into /usr/lib
+49 info installOne restler@3.2.2
+50 verbose lib/node_modules/restler unbuild
+51 verbose tar unpack /home/prathamesh/.npm/restler/3.2.2/package.tgz
+52 silly lockFile 856e81c0-tar-usr-lib-node-modules-restler tar:///usr/lib/node_modules/restler
+53 verbose lock tar:///usr/lib/node_modules/restler /home/prathamesh/.npm/856e81c0-tar-usr-lib-node-modules-restler.lock
+54 silly lockFile 9866f517-sh-npm-restler-3-2-2-package-tgz tar:///home/prathamesh/.npm/restler/3.2.2/package.tgz
+55 verbose lock tar:///home/prathamesh/.npm/restler/3.2.2/package.tgz /home/prathamesh/.npm/9866f517-sh-npm-restler-3-2-2-package-tgz.lock
+56 silly gunzTarPerm modes [ '775', '664' ]
+57 error Error: EACCES, mkdir '/usr/lib/node_modules/restler'
+57 error  { [Error: EACCES, mkdir '/usr/lib/node_modules/restler']
+57 error   errno: 3,
+57 error   code: 'EACCES',
+57 error   path: '/usr/lib/node_modules/restler',
+57 error   fstream_type: 'Directory',
+57 error   fstream_path: '/usr/lib/node_modules/restler',
+57 error   fstream_class: 'DirWriter',
+57 error   fstream_stack:
+57 error    [ '/usr/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23',
+57 error      '/usr/lib/node_modules/npm/node_modules/mkdirp/index.js:46:53',
+57 error      'Object.oncomplete (fs.js:108:15)' ] }
+58 error Please try running this command again as root/Administrator.
+59 error System Linux 3.2.0-76-generic-pae
+60 error command "/usr/bin/node" "/usr/bin/npm" "install" "-g" "restler"
+61 error cwd /home/prathamesh/Documents/bitstarter
+62 error node -v v0.10.37
+63 error npm -v 1.4.28
+64 error path /usr/lib/node_modules/restler
+65 error fstream_path /usr/lib/node_modules/restler
+66 error fstream_type Directory
+67 error fstream_class DirWriter
+68 error code EACCES
+69 error errno 3
+70 error stack Error: EACCES, mkdir '/usr/lib/node_modules/restler'
+71 error fstream_stack /usr/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23
+71 error fstream_stack /usr/lib/node_modules/npm/node_modules/mkdirp/index.js:46:53
+71 error fstream_stack Object.oncomplete (fs.js:108:15)
+72 verbose exit [ 3, true ]
